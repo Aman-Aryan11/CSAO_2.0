@@ -1,0 +1,42 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Build/test/cache artifacts
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Large/generated data artifacts
+output/
+reports/debug/
+reports/evaluation_insights/
+models/
+data_pipeline/data/
+
+# Keep optional demo seed data path ignored by default
+# Uncomment if you decide to version demo data
+# data/demo/
+
+# Streamlit local config
+.streamlit/
