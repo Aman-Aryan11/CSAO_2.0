@@ -40,3 +40,4 @@ data_pipeline/data/
 
 # Streamlit local config
 .streamlit/
+app/
